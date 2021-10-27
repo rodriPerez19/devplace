@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /*border-color: 1px solid crimson;*/
+}
+
+.description {
+  background-color: crimson;
+  width: 200px;
+}
+body {
+  background: url(120480515-fondo-de-comida-griega-platos-tradicionales-griegos-diferentes-vista-superior-de-cerca.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: rgb(27, 53, 201);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 40px;
+  text-decoration:underline 2px solid black ;
+}
+section {
+  width: 100px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 10px 20px 10px 20px;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards_food {
+  padding: 20px;
+  width: 300px;
+}
+img {
+  border-radius: 10px;
+  width: 200px;
+}

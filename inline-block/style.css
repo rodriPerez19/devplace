@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+body {
+  background: darkgray;
+}
+
+div {
+  background: purple;
+}
+section {
+  background: red;
+}
+.block {
+  background: coral;
+}
+.inline {
+  display: block;
+  height: 100px;
+  background: green;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+p {
+  display: inline;
+  background: cyan;
+}

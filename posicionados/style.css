@@ -1,0 +1,58 @@
+
+.box-1{
+  background: orange;
+  width: 300px;
+  height: 200px;
+  border: 5px solid black;
+  margin: 20px 0 50px 0;
+  padding: 10px 200px 10px 50px;
+  box-sizing: border-box;
+}
+.box-2{
+  background: orange;
+  width: 300px;
+  height: 200px;
+  border: 5px solid black;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/*
+* html{
+    font-size: 15px;
+}
+/*div{
+    font-size: 1rem;/*1rem = 16px*/
+
+
+/* --------
+section {
+  background-color: cadetblue;
+  width: 100px;
+  height: 100px;
+}
+.box-r {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 500px;
+  height: 350px;
+  border: 1px solid black;
+}
+.box-ab {
+  background-image: url(descarga.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid black;
+  opacity: 0.3;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  z-index: -1;
+}
+h1{
+    position: absolute;
+    color: red;
+} 
+-----------*/
