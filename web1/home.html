@@ -59,31 +59,24 @@
         <section class="contact" id="contactSection">
             <div class="contact-content">
                 <form>
-                    <div class="container">
+                    <div class="container" id="contact-shadow">
                         <h2>Todos los campos * son requeridos</h2>
                         <div class="form-group">
                             <input type="text" name="nombre" placeholder="Nombre y apellido*" required>
-                            <div>
-                                <input type="text" name="" placeholder="Ciudad*" required>
-                            </div>
+                            <input type="text" name="" placeholder="Ciudad*" required>
+                            <input type="email" name="email" placeholder="Email*" required>
+                            <label for="mensaje">Texto de contacto*</label><br>
+                            <input type="text" name="saldo" placeholder="Escribe tu mensaje" required step="any">
                         </div>
-                        <input type="email" name="email" placeholder="Email*" required>
+                        <br>
+                        <button class="btn" type="submit">Enviar</button>
                     </div>
-                    <div class="form-group">
-                        <label for="mensaje">Texto de contacto*</label><br>
-                        <input type="text" name="saldo" placeholder="Escribe tu mensaje" required step="any">
-                    </div>
-                    <br>
-                    <button class="btn" type="submit">Enviar</button>
-            </div>
             </div>
             </form>
             </div>
         </section>
         <footer>
-            <button class="btn">
-                <a href="http://www.google.com.ar" id="link">Ir a la Web</a>
-            </button>
+            &copy; Todos los derechos reservados.
         </footer>
     </main>
 </body>
