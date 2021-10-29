@@ -1,0 +1,47 @@
+body {
+  /* border: 1px solid red; */
+  font-family: sans-serif;
+  background: #ccc url("bg.jpg") center/cover;
+  color: rgb(38, 42, 45);
+}
+.card {
+  float: left;
+  min-width: 200px;
+  margin: 50px 2.5%;
+  height: 350px;
+  width: 20%;
+}
+.card-header {
+  height: 300px;
+  padding-top: 30px;
+  background:#fff;
+  text-align: center;
+}
+.img {
+  width: 150px;
+  border-radius: 100%;
+  height: 150px;
+  margin: 0 20px 0 20px;
+  background: url("https://media.a24.com/p/c35751aee2901098f5ba0d9e095432bd/adjuntos/296/imagenes/008/811/0008811672/1200x675/smart/mark-zuckerbergjpg.jpg") center/cover;
+}
+.card-header>h5{
+  margin-bottom: 0px;
+  font-size: 22px;
+  margin-top: 90px;
+  font-weight: 500;
+}
+.card-bottom {
+  background-color: rgb(43, 102, 169);
+  height: 30px;
+}
+.card-bottom>span{
+  font-size: 16px;
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+}
+.card-bottom>span > i {
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+}
