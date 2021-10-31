@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(75, 82, 88);
+}
+.card-container {
+  width: 810px;
+  height: 400px;
+  border-radius: 10px;
+  background: white;
+  overflow: hidden;
+  margin: 80px 0 0 400px;
+}
+.card-1 {
+  float: left;
+  height: 380px;
+  width: 340px;
+  padding: 10px 30px;
+}
+h2 {
+  font-family: "Old Standard TT", serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+h5 {
+  margin-top: 0;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+sup {
+  top: 10px;
+  padding: 5px 10px;
+  position: relative;
+  border-radius: 4px;
+  font-size: 20px;
+  background: rgb(253, 184, 178);
+  color: #fff;
+  font-family: "Farsan";
+}
+i {
+  color: rgb(223, 191, 13);
+}
+p {
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: "Abel";
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(137, 137, 137);
+}
+button {
+  margin-top: 40px;
+  font-family: "Farsan";
+  color: white;
+  font-size: 27px;
+  padding: 10px;
+  float: left;
+  border: none;
+  height: 50px;
+  cursor: pointer;
+}
+.button-price {
+  margin-left: 50px;
+  border-radius: 10px 0 0 10px;
+  width: 75px;
+  background: rgb(51, 51, 51);
+}
+.button-buy {
+  width: 140px;
+  font-weight: bold;
+  background: rgb(83, 203, 18);
+  border-radius: 0 10px 10px 0;
+}
+.card-2 {
+  float: left;
+  width: 400px;
+  height: 400px;
+  background: url(HTB1Cic9HFXXXXbZXpXXq6xXFXXX3.jpg) center/contain;
+  border-radius: 0 10px 10px 0;
+}
