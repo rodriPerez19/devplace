@@ -1,0 +1,70 @@
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-image: linear-gradient(90deg, #d9b6db, #7e9ac7);
+}
+.container {
+  display: flex;
+  width: 80%;
+  margin: 2rem auto;
+  flex-direction: column;
+}
+.card {
+  background: #b5e0f1;
+  width: 300px;
+  height: 400px;
+  margin: 2rem;
+  border-radius: 5px;
+  box-shadow: 2px 1px 5px rgb(55, 55, 55);
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.card > .img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-color: #eee;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://media.a24.com/p/c35751aee2901098f5ba0d9e095432bd/adjuntos/296/imagenes/008/811/0008811672/1200x675/smart/mark-zuckerbergjpg.jpg")
+    center/cover;
+}
+h5 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sub {
+  font-size: 15px;
+  margin: 0 0 27px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-bottom {
+  background-color: rgb(43, 102, 169);
+  color: #fff;
+  height: 30px;
+  width: 300px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+span > i {
+  font-size: 20px;
+  cursor: pointer;
+  height: auto;
+  width: 55px;
+  padding: 5px 4px 0 10px;
+}
