@@ -17,13 +17,13 @@ body {
   height: 420px;
   background: url("product-img\ —\ копия.png");
 }
-.card-2 {
+.card-2 { 
   float: left;
   width: 255px;
   height: 360px;
   padding: 30px 30px;
 }
-h2 {
+h2 { 
   margin: 0;
   font-size: 40px;
   font-family: "Times New Roman", Times, serif;

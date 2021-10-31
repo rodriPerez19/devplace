@@ -6,8 +6,8 @@ body {
 }
 .card {
   float: left;
-  min-width: 200px;
-  margin: 50px 2.5%;
+  width: 100px;
+  margin: 50px;
   height: 350px;
   width: 20%;
 }
