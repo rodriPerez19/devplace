@@ -1,6 +1,8 @@
 * {
   /* border: 1px solid red; */
   margin: 0;
+  cursor: pointer;
+
   padding: 0;
   font-family: sans-serif;
 }
@@ -19,7 +21,12 @@ body {
   height: 400px;
   margin: 2rem;
   border-radius: 5px;
+}
+.container .card:hover {
+  transform: translateY(-15px);
+  transition: all 500ms;
   box-shadow: 2px 1px 5px rgb(55, 55, 55);
+  opacity: 0.7;
 }
 .row {
   display: flex;
@@ -63,7 +70,6 @@ h5 {
 }
 span > i {
   font-size: 20px;
-  cursor: pointer;
   height: auto;
   width: 55px;
   padding: 5px 4px 0 10px;
