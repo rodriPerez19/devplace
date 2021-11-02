@@ -19,3 +19,10 @@ span {
   display: flex;
   margin: 1rem;
 }
+.icons{
+  cursor: pointer;
+}
+.icons:hover{
+  transform: translateY(-15px);
+  transition: all 500ms;
+}
