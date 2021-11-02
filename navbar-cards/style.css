@@ -123,10 +123,10 @@ h6 {
   flex-direction: row;
 }
 .active {
-  font-size: 14px;
+  font-size: 15px;
   padding: 2px 7px;
   border-radius: 4px;
-  color: rgb(42, 160, 110);
+  color: rgb(40,160, 110);
   background: rgba(42, 160, 110, 0.1);
 }
 .disabled {
@@ -135,12 +135,4 @@ h6 {
   border-radius: 4px;
   color: rgb(85, 108, 150);
   background: rgba(85, 108, 150, 0.1);
-}
-.search-bar {
-  background: rgb(0, 30, 65);
-  height: 30px;
-  width: 35%;
-  border-radius: 5px;
-  border: none;
-  margin-left: 50px;
 }
