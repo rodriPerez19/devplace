@@ -59,7 +59,6 @@
 .box {
   height: 15%;
   width: 80%;
-  border: 1px solid black;
   color: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -141,6 +140,7 @@ button {
   height: 15%;
   color: #fff;
   font-weight: bold;
+  cursor: pointer;
 }
 input:focus {
   outline: none;
