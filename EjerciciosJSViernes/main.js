@@ -70,6 +70,7 @@ console.log(x());
 
 //--------------------7
 miFuncion2 = (elemento, array) => array.includes(elemento);
+
 console.log(miFuncion2(10, 'hola 10'))
 
 //--------------------8
@@ -89,11 +90,13 @@ function cut(str) {
     }
 }
 console.log(cut('concatenacion'))
+
 //--------------------10
 function concatenarSin(a, b) {
     return a.slice(1).concat(b.slice(1));
 }
 console.log(concatenarSin('Hola', 'Mundo'))
+
 //--------------------11
 function ejemplo(numeroA, numeroB) {
     if (numeroA > numeroB) {
