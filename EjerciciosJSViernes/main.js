@@ -25,7 +25,7 @@ console.log(horas(2));
 function pasarArray(array) {
     return array.join(" ");
 }
-
+console.log(pasarArray([12, 45, 67]))
 //--------------------4
 function invertir(array2) {
     return array2.reverse();
@@ -41,6 +41,7 @@ function invertirArreglo(array3) {
 
     }
     console.log("ArrayCopia " + arrayCopia)
+
     console.log("Array3 " + array3);
 }
 console.log(invertirArreglo([10, 20, 30]));
@@ -98,11 +99,9 @@ function concatenarSin(a, b) {
 console.log(concatenarSin('Hola', 'Mundo'))
 
 //--------------------11
-function ejemplo(numeroA, numeroB) {
-    if (numeroA > numeroB) {
-        console.log('El numero A es mas cercano a 100')
-    } else {
-        console.log('El numero B es mas cercano a 100')
-    }
+function ejem11(num1, num2) {
+    let n1 = num1 > 100 ? num1 - 100 : 100 - num1;
+    let n2 = num2 > 100 ? num2 - 100 : 100 - num2;
+    return n1 > n2 ? num2 : num1;
 }
-(ejemplo(90, 10))
+console.log(ejem11(30, 10))
