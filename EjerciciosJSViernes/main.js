@@ -77,8 +77,8 @@ console.log(miFuncion2(10, 'hola 10'))
 function ultimoCaracter(str) {
     return str[str.length - 1] === "b";
 }
-console.log(ultimoCaracter('a'))
-console.log(ultimoCaracter('b'))
+console.log(ultimoCaracter('abc'))
+console.log(ultimoCaracter('acb'))
 
 //--------------------9
 //cadena.slice(inicioTrozo[, finTrozo])
@@ -93,7 +93,7 @@ console.log(cut('concatenacion'))
 
 //--------------------10
 function concatenarSin(a, b) {
-    return a.slice(1).concat(b.slice(1));
+    return a.slice(2).concat(b.slice(2));
 }
 console.log(concatenarSin('Hola', 'Mundo'))
 
