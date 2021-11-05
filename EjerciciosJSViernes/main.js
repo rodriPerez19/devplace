@@ -80,3 +80,26 @@ console.log(ultimoCaracter('a'))
 console.log(ultimoCaracter('b'))
 
 //--------------------9
+//cadena.slice(inicioTrozo[, finTrozo])
+function cut(str) {
+    if (str.length >= 6) {
+        return str.slice(str.length - 3, str.length);
+    } else {
+        return "No es suficiente";
+    }
+}
+console.log(cut('concatenacion'))
+//--------------------10
+function concatenarSin(a, b) {
+    return a.slice(1).concat(b.slice(1));
+}
+console.log(concatenarSin('Hola', 'Mundo'))
+//--------------------11
+function ejemplo(numeroA, numeroB) {
+    if (numeroA > numeroB) {
+        console.log('El numero A es mas cercano a 100')
+    } else {
+        console.log('El numero B es mas cercano a 100')
+    }
+}
+(ejemplo(90, 10))
