@@ -44,3 +44,39 @@ function invertirArreglo(array3) {
     console.log("Array3 " + array3);
 }
 console.log(invertirArreglo([10, 20, 30]));
+
+// Ejercicio Nº6:
+// Crear una función que concatene 2 arrays
+// Ejercicio Nº7:
+//  Crear una función que retorne true si un array contiene un elemento
+// Ejercicio Nº8
+// Crear una función que te diga si el ultimo caracter de un string es una b
+// Ejercicio Nº9
+// Crear una función que tome un string y cree uno nuevo utilizando las 3 primeras y ultimas letras,
+// comprobar que el string de parametro mida al menos 6 caracteres
+// Ejercicio Nº10
+// Crear una función que tome dos strings y los concatene sin las primeras 2 letras
+// Ejercicio Nº11
+// Comprobar entre dos valores cual es mas cercano al 100
+
+//--------------------6
+const arr1 = [10, 20, 30];
+const arr2 = [40, 50, 60];
+
+function x() {
+    return arr1.concat(arr2);
+}
+console.log(x());
+
+//--------------------7
+miFuncion2 = (elemento, array) => array.includes(elemento);
+console.log(miFuncion2(10, 'hola 10'))
+
+//--------------------8
+function ultimoCaracter(str) {
+    return str[str.length - 1] === "b";
+}
+console.log(ultimoCaracter('a'))
+console.log(ultimoCaracter('b'))
+
+//--------------------9
