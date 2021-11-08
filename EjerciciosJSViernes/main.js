@@ -56,9 +56,7 @@ console.log(invertirArreglo([10, 20, 30]));
 const arr1 = [10, 20, 30];
 const arr2 = [40, 50, 60];
 
-function x() {
-    return arr1.concat(arr2);
-}
+const x = () => arr1.concat(arr2);
 console.log(x());
 
 //--------------------7
