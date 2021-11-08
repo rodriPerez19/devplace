@@ -10,26 +10,18 @@
 // Crear una funcion que tome un array y lo invierta sin cambiar el original.
 
 //--------------------1
-function convertirEdad(edad) {
-    return edad * 365;
-}
-console.log(convertirEdad(2))
+convertirEdad = (edad) => edad * 365;
+console.log(convertirEdad(25))
 
 //--------------------2
-function horas(horasPrueba) {
-    return horasPrueba * 3600;
-}
+horas = (horasPrueba) => horasPrueba * 3600;
 console.log(horas(2));
 
 //--------------------3
-function pasarArray(array) {
-    return array.join(" ");
-}
+pasarArray = (array) => array.join(" ");
 console.log(pasarArray([12, 45, 67]))
 //--------------------4
-function invertir(array2) {
-    return array2.reverse();
-}
+invertir = (array2) => array2.reverse();
 let array2 = ["hola", "mundo"]
 console.log(invertir(array2))
 
